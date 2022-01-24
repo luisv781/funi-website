@@ -6,5 +6,5 @@ function predictionClick() {
 	const date = new Date();
 	//window.alert("santiago will take a shit at: " + date);
 	const customDate = new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes() + 5);
-	document.getElementById("prediction").innerHTML = "santiago will take a shit at: " + customDate.toDateString();
+	document.getElementById("prediction").innerHTML = "santiago will take a shit at: " + customDate.toLocaleString();
 }
