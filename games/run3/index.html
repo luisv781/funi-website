@@ -4,18 +4,26 @@
 	
 	<meta charset="utf-8">
 	
-	<title>Run 3</title>
+	<title>Games - Run 3</title>
 	
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="Games - 2048" property="og:title" />
+    <meta property="og:site_name" content="chinese propaganda">
+    <meta content="funi website" property="og:description" />
+    <meta content="https://luisv781.github.io/funi-website/#" property="og:url" />
+    <meta name="og:image" itemprop="image" content="https://luisv781.github.io/funi-website/assets/amogus.jpg">
+    <!---meta name="twitter:card" content="summary_large_image"--->
+    <meta property="og:type" content="website">
+    <meta content="#43e000" data-react-helmet="true" name="theme-color" />
 	
-	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	<link rel="icon" type="image/x-icon" href="..\..\assets\amogus.jpg">
 	<script>
         Object.defineProperty(Document.prototype, 'domain', {
             get: () => 'player03.com',
         });
-		alert('Disable adblocker if not working.');
     </script>
 	<script type="text/javascript" src="./Run3.js"></script>
 	
@@ -29,6 +37,33 @@
 	
 	<style>
 		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+		.topbar {
+  background-color: #262626;
+  overflow: hidden;
+}
+
+.topbar a {
+  float: left;
+  background-color: #1e4f37;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  cursor: pointer;
+}
+
+.topbar a:hover {
+  background-color: #befae2;
+  color: black;
+}
+
+.topbar a.active {
+  background-color: #35db88;
+  color: white;
+}
 		#openfl-content { background: #000000; width: 100%; height: 100%; }
 		@font-face {
 			font-family: 'Comfortaa Bold';
@@ -69,6 +104,12 @@
 </head>
 <body>
 	
+	<div class="topbar">
+      <a href="..\..\">Home</a>
+      <a href="..\..\noob">hentai</a>
+      <a href="..\">Games</a>
+    </div>
+
 	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
 	
 	<div id="openfl-content"></div>
